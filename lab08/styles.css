@@ -5,3 +5,6 @@ h1, h2 {color: #F9AF00;}
 nav {background-color: #F9C900; padding: 10px; margin-bottom: 30px;}
 nav a {color: #3B74BF;}
 nav a:hover {background-color: #C4DBEE;}
+
+.copyright {float:left;}
+.quote {float:right;}
