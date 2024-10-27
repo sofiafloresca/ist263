@@ -1,6 +1,7 @@
 body {background-color: #3B74BF; color: #FFFFFF;}
 a {color: #F9C900;}
 h1, h2 {color: #F9AF00;}
+.hskills {color: #3B74BF}
 h1 {display:flex; justify-content:center;}
 .flex1 {display:flex; justify-content:space-around;}
 .skills {display: flex; justify-content: space-around; margin: 20px; flex: 3}
