@@ -1,8 +1,10 @@
 body {background-color: #3B74BF; color: #FFFFFF;}
 a {color: #F9C900;}
 h1, h2 {color: #F9AF00;}
-h1 {display:block; text-align:center;}
-.skills {display: flex; justify-content: space-around; margin: 20px;}
+h1 {display:flex; justify-content:center;}
+.flex1 {display:flex; justify-content:space-around;}
+.skills {display: flex; justify-content: space-around; margin: 20px; flex: 3}
+.otherskills{flex:1; margin: 20px;}
 aside {background-color: #F9C900; padding: 10px; margin: 20px; border-radius: 1em;}
 
 nav {background-color: #F9C900; padding: 10px; margin-bottom: 30px;}
