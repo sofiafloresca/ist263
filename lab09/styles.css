@@ -3,6 +3,7 @@ a {color: #F9C900;}
 h1, h2 {color: #F9AF00;}
 h1 {display:block; text-align:center;}
 img {width: 30px;}
+.skills {display: flex; justify-content: space-around; margin: 20px 0;}
 
 nav {background-color: #F9C900; padding: 10px; margin-bottom: 30px;}
 nav a {color: #3B74BF;}
