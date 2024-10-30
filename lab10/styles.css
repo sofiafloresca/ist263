@@ -19,6 +19,18 @@ aside {background-color: #F9C900; border-radius: 1em;}
 nav {background-color: #F9C900; padding: 10px; margin-bottom: 30px;}
 nav a {color: #3B74BF;}
 nav a:hover {background-color: #C4DBEE;}
+@media only screen and (max-width: 500px) {
+    nav a{
+        display: block;
+        max-width: 100%;
+        span {display: none;}
+    }
+}
+@media only screen and (min-width: 501px) {
+    .small {
+        display: none;
+    }
+}
 
 .copyright {float:left;}
 .quote {float:right;}
