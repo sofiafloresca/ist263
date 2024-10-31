@@ -4,7 +4,7 @@ h1, h2 {color: #F9AF00;}
 
 .hskills {color: #3B74BF}
 h1 {display:flex; justify-content:center;}
-.myphoto {max-width: 100%;}
+.myphoto {max-width: 100%; display: flex; justify-content: center;}
 
 .flex1 {display:flex;}
 .description{flex:3; order: 1;}
