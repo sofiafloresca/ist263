@@ -1,6 +1,6 @@
 body {background-color: #3B74BF; color: #FFFFFF; font-size: 1em;}
-a {color: #F9C900;}
-h1, h2 {color: #F9AF00;}
+a {color: #ffeb99;}
+h1, h2 {color: #ffeb99;}
 
 .hskills {color: #3B74BF}
 h1 {display:flex; justify-content:center;}
@@ -13,11 +13,11 @@ h1 {display:flex; justify-content:center;}
 .flex2 {display:flex; justify-content:space-around; margin-top: 20px;}
 .skills {display: flex; justify-content: space-around; margin: 20px; flex: 3; order: 1;}
 .otherskills{flex:1; margin: 20px; padding: 20px; order: 2;}
-aside {background-color: #F9C900; padding: 20px; border-radius: 1em;}
+aside {background-color: #ffeb99; padding: 20px; border-radius: 1em;}
 
 .row2 {display: flex; flex-wrap: wrap;}
 
-nav {background-color: #F9C900; padding: 10px; margin-bottom: 30px;}
+nav {background-color: #ffeb99; padding: 10px; margin-bottom: 30px;}
 nav a {color: #3B74BF;}
 nav a:hover {background-color: #C4DBEE;}
 @media only screen and (max-width: 500px) {
