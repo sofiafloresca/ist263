@@ -1,8 +1,8 @@
-body {background-color: #3B74BF; color: #FFFFFF; font-size: 1em;}
+body {background-color: #004080; color: #FFFFFF; font-size: 1em;}
 a {color: #ffeb99;}
 h1, h2 {color: #ffeb99;}
 
-.hskills {color: #3B74BF}
+.hskills {color: #004080}
 h1 {display:flex; justify-content:center;}
 .myphoto {max-width: 100%; display: flex; justify-content: center;}
 
@@ -18,7 +18,7 @@ aside {background-color: #ffeb99; padding: 20px; border-radius: 1em;}
 .row2 {display: flex; flex-wrap: wrap;}
 
 nav {background-color: #ffeb99; padding: 10px; margin-bottom: 30px;}
-nav a {color: #3B74BF;}
+nav a {color: #004080;}
 nav a:hover {background-color: #C4DBEE;}
 @media only screen and (max-width: 500px) {
     nav a{
