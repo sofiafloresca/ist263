@@ -1,12 +1,13 @@
+.skip-to-content-button {
+    color: #004080;
+    background-color: #ffeb99;
+    padding: 10px;
+    border-color: #004080; 
+}
+
 body {background-color: #004080; color: #FFFFFF; font-size: 1em;}
 a {color: #ffeb99;}
 h1, h2 {color: #ffeb99;}
-
-.skip-to-content-button {
-    color: #004080;
-    background-color: white;
-    padding: 10px;
-}
 
 .hskills {color: #004080}
 h1 {display:flex; justify-content:center;}
