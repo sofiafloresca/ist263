@@ -17,6 +17,9 @@
                 nav a span {display: none;}
             }
             img {width: 300px}
+            .flex1 {display: flex;}
+            .images {flex: 3; order: 1;}
+            .explainer {flex: 1; order: 2;}
         </style>
     </head>
     <body>
@@ -29,30 +32,52 @@
             <h1>Art</h1>
             <article>
                 <h2 id="georgia">GEORGIA</h2>
-                <p>This is a portrait I painted a few weeks into school when I was missing my dog like crazy.</p>
-                <p>Done in watercolor.</p>
-                <img src = "../images/georgia.jpeg" alt = "Painting of Georgia, my dog">
+                <div class="flex1">
+                    <div class="images">
+                        <img src = "../images/georgia.jpeg" alt = "Painting of Georgia, my dog">
+                    </div>
+                    <div class="explainer">
+                        <p>This is a portrait I painted a few weeks into school when I was missing my dog like crazy.</p>
+                    </div>
+                </div>
             </article>
             <hr>
             <article>
                 <h2 id="cookbook">MOM'S COOKBOOK</h2>
-                <p>When I moved in for my second year of college, my mom gave me a cookbook filled with printed recipes that she knew I would miss. I want to honor this gesture and her cooking by creating a cookbook filled with illustrations of all of my favorite foods that she makes for me. Though I only have a few illustrations, I plan to work on this as a side project until I have nearly a hundred recipes showcased.</p>
-                <p>Done in watercolor.</p>
-                <img src = "../images/pavlova.jpg" alt = "Pavlova painting">
+                <div class="flex1">
+                    <div class="images">
+                        <img src = "../images/pavlova.jpg" alt = "Pavlova painting">
+                    </div>
+                    <div class="explainer">
+                        <p>When I moved in for my second year of college, my mom gave me a cookbook filled with printed recipes that she knew I would miss. I want to honor this gesture and her cooking by creating a cookbook filled with illustrations of all of my favorite foods that she makes for me. Though I only have a few illustrations, I plan to work on this as a side project until I have nearly a hundred recipes showcased.</p>
+                    </div>
+                </div>
+                
             </article>
             <hr>
             <article>
                 <h2>HOME SWEET...HOME?</h2>
-                <p>This is a painting/drawing I did of my childhood home, prior to its repainting while I was gone. You can sort of guess how I felt about my parents changing things while I was away…</p>
-                <p>Done in watercolor.</p>
-                <img src = "../images/house.jpg" alt = "Painting of my childhood home">
+                <div class="flex1">
+                    <div class="images">
+                        <img src = "../images/house.jpg" alt = "Painting of my childhood home">
+                    </div>
+                    <div class="explainer">
+                        <p>This is a painting/drawing I did of my childhood home, prior to its repainting while I was gone. You can sort of guess how I felt about my parents changing things while I was away…</p>
+                    </div>
+                </div>
             </article>
             <hr>
             <article>
                 <h2 id="watercolor">MISCALLANEOUS</h2>
-                <p>I  love watercolor and I often paint when I am bored, tired, emotional, or inspired. Here are a couple extra paintings I’ve done that I love.</p>
-                <img src = "../images/girl_in_car.jpg" alt = "Painting of girl in car">
-                <img src = "../images/girl-in-glass.jpg" alt = "Painting of girl in martini glass">
+                <div class="flex1">
+                    <div class="images">
+                        <img src = "../images/girl_in_car.jpg" alt = "Painting of girl in car">
+                        <img src = "../images/girl-in-glass.jpg" alt = "Painting of girl in martini glass">
+                    </div>
+                    <div class="explainer">
+                        <p>I  love watercolor and I often paint when I am bored, tired, emotional, or inspired. Here are a couple extra paintings I’ve done that I love.</p>
+                    </div>
+                </div>
             </article>
         </main>
         <footer>
