@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sofia Floresca Portfolio Home Page</title>
+        <style>
+            nav {background-color: #0F426F; padding: 10px; margin-bottom: 30px;}
+            nav a {color: #FFFFFF; font-size: 20px;}
+            nav a:hover {background-color: #326e9f;}
+            h1, h2{color: #0F426F;}
+            @media only screen and (max-width: 500px) {
+                nav a{
+                    display: block;
+                    max-width: 100%;
+                }
+                nav a span {display: none;}
+            
+                .headshot {width: 100%;}
+                .img {width: 100%;}
+                .flex1, .flex2, .flex3, .flex4 {display: block;}
+            }
+            .headshot {width: 400px; float: left; margin-right: 20px;}
+            .clear {clear: both;}
+            img {width: 300px}
+            .flex1, .flex2, .flex3, .flex4 {display: flex;}
+            .flex1 div {flex: 1; margin: 10px; align-content: center;}
+            .flex2 div {flex: 1; margin: 10px; align-content: center;}
+            .flex2 div img {width: 700px;}
+            .flex3 div {flex: 1; margin: 10px; align-content: center;}
+            .flex3 div img {width: 250px;}
+            .flex4 div {flex: 1; margin: 10px; align-content: center;}
+            .flex4 div img {width: 500px;}
+            .singlephoto {width: 500px;}
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">HOME <span>|</span></a>
+            <a href="design.html"> DESIGN <span>|</span></a>
+            <a href="art.html"> ART</a>
+        </nav>
+        <main>
+            <img src = "../images/headshot.jpeg" alt = "Headshot of Sofia Floresca" class = "headshot">
+            <h1>Hi, I'm Sofia Floresca!</h1>
+            <p>I am a sophomore studying Graphic Design and Information Management & Technology at Syracuse University. I have always loved art and design and am excited to finally have a portfolio of work worth sharing. From class projects to work for student orgs to personal endeavors, I spend a lot of time being creative.</p>
+            <div class="clear"></div>
+            <p>Here are some recent works I'm proud of...</p>
+            <br>
+            <article>
+                <h2>PERSONAL PROJECT - VALUES POSTER SERIES</h2>
+                <a href="design.html#values">go to page -></a>
+                <div class="flex1">
+                    <div><img src="../images/Creativity_Poster.png" alt="Creativity Poster"></div>
+                    <div><img src="../images/Movement_Poster.jpg" alt="Movement Poster"></div>
+                    <div><img src="../images/Solitude_Poster.png" alt="Solitude Poster"></div>
+                    <div><img src="../images/Travel_Poster.png" alt="Travel Poster"></div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <h2>DANCEWORKS BOARD APPAREL</h2>
+                <a href="design.html#board">go to page -></a>
+                <div class="flex2">
+                    <div><img src="../images/DW_Board_Mockups_Final-01.png" alt="DanceWorks Board Hoodie Mockup"></div>
+                    <div><img src="../images/DW_Board_Mockups_Final-05.png" alt="DanceWorks Board Tank Mockup"></div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <h2>IMPASSE MAGAZINE PROJECT</h2>
+                <a href="design.html#impasse">go to page -></a>
+                <div class="flex3">
+                    <div><img src="../images/MagazineProject1.jpg" alt="Impasse Magazine Cover"></div>
+                    <div><img src="../images/MagazineProject2.jpg" alt="Impasse Magazine Article Opener Page 1"></div>
+                    <div><img src="../images/MagazineProject3.jpg" alt="Impasse Magazine Article Opener Page 2"></div>
+                    <div><img src="../images/MagazineProject4.jpg" alt="Impasse Magazine Article Page 1"></div>
+                    <div><img src="../images/MagazineProject5.jpg" alt="Impasse Magazine Article Page 2"></div>
+                    <div><img src="../images/MagazineProject6.jpg" alt="Impasse Magazine Back Cover"></div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <h2>GEORGIA</h2>
+                <a href="art.html#georgia">go to page -></a>
+                <div><img src = "../images/georgia.jpeg" alt = "Painting of Georgia, my dog" class="singlephoto"></div>
+            </article>
+            <hr>
+            <article>
+                <h2>MOM'S COOKBOOK</h2>
+                <a href="art.html#cookbook">go to page -></a>
+                <div><img src = "../images/pavlova.jpg" alt = "Pavlova painting" class="singlephoto"></div>
+            </article>
+            <hr>
+            <article>
+                <h2>OTHER WATERCOLOR</h2>
+                <a href="art.html#watercolor">go to page -></a>
+                <div class="flex4">
+                    <div class = "img1"><img src = "../images/girl_in_car.jpg" alt = "Painting of girl in car"></div>
+                    <div><img src = "../images/girl-in-glass.jpg" alt = "Painting of girl in martini glass"></div>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2024</p>
+            <p>Sofia Floresca Portfolio</p>
+        </footer>
+    </body>
+</html>
