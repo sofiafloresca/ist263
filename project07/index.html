@@ -23,10 +23,12 @@
                 .flex1, .flex2, .flex3, .flex4 {display: block;}
             }
             .headshot {width: 400px; float: left; margin-right: 20px;}
-            a {color: #ffeb99; text-decoration: none;}
-            .clear {clear: both; text-decoration-line: none;}
+            a {color: #ffeb99; text-decoration-line: none;}
             img {width: 300px}
-            .flex1, .flex2, .flex3, .flex4 {display: flex;}
+            .flextitle, .flex1, .flex2, .flex3, .flex4 {display: flex;}
+            .flextitle .titleimage {flex: 1;}
+            .flextitle .words {flex: 2;}
+            .flextitle .space {flex: 1;}
             .flex1 div {flex: 1; margin: 10px; align-content: center;}
             .flex2 div {flex: 1; margin: 10px; align-content: center;}
             .flex2 div img {width: 700px;}
@@ -45,9 +47,14 @@
             <a href="art.html"> ART</a>
         </nav>
         <main>
-            <img src = "../images/headshot.jpeg" alt = "Headshot of Sofia Floresca" class = "headshot">
-            <h1>Hi, I'm Sofia Floresca!</h1>
-            <p>I am a sophomore studying Graphic Design and Information Management & Technology at Syracuse University. I have always loved art and design and am excited to finally have a portfolio of work worth sharing. From class projects to work for student orgs to personal endeavors, I spend a lot of time being creative.</p>
+            <div class="flextitle">
+                <div class="titleimage"><img src = "../images/headshot.jpeg" alt = "Headshot of Sofia Floresca" class = "headshot"></div>
+                <div class="words">
+                    <h1>Hi, I'm Sofia Floresca!</h1>
+                    <p>I am a sophomore studying Graphic Design and Information Management & Technology at Syracuse University. I have always loved art and design and am excited to finally have a portfolio of work worth sharing. From class projects to work for student orgs to personal endeavors, I spend a lot of time being creative.</p>
+                </div>
+                <div class="space"></div>
+            </div>
             <div class="clear"></div>
             <p>Here are some recent works I'm proud of...</p>
             <br>
