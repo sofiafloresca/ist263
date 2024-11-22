@@ -19,9 +19,11 @@
                 nav a span {display: none;}
             }
             img {width: 300px}
-            .flex1 {display: flex;}
-            .images {flex: 3; order: 1;}
+            .flex1, .flex2 {display: flex;}
+            .flex1 .images {flex: 1; order: 1; align-content: center;}
             .explainer {flex: 1; order: 2;}
+            .flex1 {flex: 3; order: 3;}
+            .flex2 .images {flex: 2; order: 1; align-content: center;}
         </style>
     </head>
     <body>
@@ -41,6 +43,7 @@
                     <div class="explainer">
                         <p>This is a portrait I painted a few weeks into school when I was missing my dog like crazy.</p>
                     </div>
+                    <div class="space"></div>
                 </div>
             </article>
             <hr>
@@ -53,6 +56,7 @@
                     <div class="explainer">
                         <p>When I moved in for my second year of college, my mom gave me a cookbook filled with printed recipes that she knew I would miss. I want to honor this gesture and her cooking by creating a cookbook filled with illustrations of all of my favorite foods that she makes for me. Though I only have a few illustrations, I plan to work on this as a side project until I have nearly a hundred recipes showcased.</p>
                     </div>
+                    <div class="space"></div>
                 </div>
                 
             </article>
@@ -66,12 +70,13 @@
                     <div class="explainer">
                         <p>This is a painting/drawing I did of my childhood home, prior to its repainting while I was gone. You can sort of guess how I felt about my parents changing things while I was away…</p>
                     </div>
+                    <div class="space"></div>
                 </div>
             </article>
             <hr>
             <article>
                 <h2 id="watercolor">MISCALLANEOUS</h2>
-                <div class="flex1">
+                <div class="flex2">
                     <div class="images">
                         <img src = "../images/girl_in_car.jpg" alt = "Painting of girl in car">
                         <img src = "../images/girl-in-glass.jpg" alt = "Painting of girl in martini glass">
@@ -79,6 +84,7 @@
                     <div class="explainer">
                         <p>I  love watercolor and I often paint when I am bored, tired, emotional, or inspired. Here are a couple extra paintings I’ve done that I love.</p>
                     </div>
+                    <div class="space"></div>
                 </div>
             </article>
         </main>
