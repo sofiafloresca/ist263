@@ -38,8 +38,8 @@
             .singlephoto {width: 500px;}
             .skip-to-content-button {font-size: 1.5em; color:#ffffff}
 
-            .navbar {overflow: hidden;}
-            .dropdown {float: right; overflow: hidden;}
+            .navbar {overflow: hidden; display: flex; justify-content: start;}
+            .dropdown {overflow: hidden;}
             .dropdown .dropbtn {border: none; outline: none; margin: 0;}
             .navbar a:hover, .dropdown:hover .dropbtn {background-color: #acd0ee;}
             .dropdown-content a:hover {background-color: #acd0ee;}
@@ -57,7 +57,7 @@
 
             /* FROM W3 SCHOOLS: Links inside the dropdown */
             .dropdown-content a {
-            font-size: 1em;
+            font-size: 1.5em;
             float: none;
             color: #032544;
             padding: 12px 16px;
@@ -71,12 +71,11 @@
     <body>
         <nav>
             <div class="navbar">
-                <a href="index.html">HOME <span>|</span></a>
+                <a href="index.html">HOME  </a>
+                <span>|</span>
                 <div class="dropdown">
-                    <a href="design.html"> <button class="dropbtn">
-                        DESIGN <span>|</span>
-                      <i class="fa fa-caret-down"></i>
-                    </button> </a>
+                    <a href="design.html" class="dropbtn">  DESIGN  </a>
+                    <span>|</span>
                     <div class="dropdown-content">
                       <a href="design.html#values">Values Poster Series</a>
                       <a href="design.html#board">Danceworks Merch</a>
@@ -89,10 +88,7 @@
                     </div>
                   </div>
                 <div class="dropdown">
-                    <a href="art.html"> <button class="dropbtn">
-                        ART
-                        <i class="fa fa-caret-down"></i>
-                    </button></a>
+                    <a href="art.html" class="dropbtn">  ART</a>
                     <div class="dropdown-content">
                         <a href="art.html#georgia">Georgia Watercolor</a>
                         <a href="art.html#cookbook">Mom's Cookbook</a>
