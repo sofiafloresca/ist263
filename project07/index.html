@@ -38,13 +38,68 @@
             .singlephoto {width: 500px;}
             .skip-to-content-button {font-size: 1.5em; border: #ffeb99; border-width: 4px;}
 
+            .navbar {overflow: hidden;}
+            .dropdown {float: left; overflow: hidden;}
+            .dropdown .dropbtn {border: none; outline: none; color: white; margin: 0;}
+            .navbar a:hover, .dropdown:hover .dropbtn {background-color: #acd0ee;}
+            .dropdown-content a:hover {background-color: #acd0ee;}
+            .dropdown:hover .dropdown-content {display: block;}
+
+            /* FROM W3 SCHOOLS: Dropdown content (hidden by default) */
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            /* FROM W3 SCHOOLS: Links inside the dropdown */
+            .dropdown-content a {
+            float: none;
+            color: #032544;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+
         </style>
     </head>
     <body>
         <nav>
-            <a href="index.html">HOME <span>|</span></a>
-            <a href="design.html"> DESIGN <span>|</span></a>
-            <a href="art.html"> ART</a>
+            <div class="navbar">
+                <a href="index.html">HOME <span>|</span></a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="design.html"> DESIGN <span>|</span></a>
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="design.html#values">Link 1</a>
+                      <a href="design.html#board">Link 2</a>
+                      <a href="design.html#app">Link 3</a>
+                      <a href="design.html#impasse">Link 1</a>
+                      <a href="design.html#festival">Link 2</a>
+                      <a href="design.html#home">Link 3</a>
+                      <a href="design.html#ugirl">Link 1</a>
+                      <a href="design.html#20watts">Link 2</a>
+                    </div>
+                  </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="art.html"> ART</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="art.html#georgia">Link 1</a>
+                        <a href="art.html#cookbook">Link 2</a>
+                        <a href="art.html#home">Link 3</a>
+                        <a href="art.html#watercolor">Link 3</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <main>
             <div class="flextitle">
@@ -76,7 +131,7 @@
             </article>
             <br><hr><br>
             <article>
-                <h2>DANCEWORKS BOARD APPAREL</h2>
+                <h2 id="dw">DANCEWORKS BOARD APPAREL</h2>
                 <a href="design.html#board">go to page -></a>
                 <br>
                 <div class="flex2">
@@ -86,7 +141,7 @@
             </article>
             <br><hr><br>
             <article>
-                <h2>IMPASSE MAGAZINE PROJECT</h2>
+                <h2 id="mag">IMPASSE MAGAZINE PROJECT</h2>
                 <a href="design.html#impasse">go to page -></a>
                 <br>
                 <div class="flex3">
@@ -98,7 +153,7 @@
             </article>
             <br><hr><br>
             <div class="flex4">
-                <div>
+                <div id="georgia">
                     <article>
                         <h2>GEORGIA</h2>
                         <a href="art.html#georgia">go to page -></a>
@@ -106,7 +161,7 @@
                         <img src = "../images/project/georgia.jpeg" alt = "Painting of Georgia, my dog" class="singlephoto">
                     </article>
                 </div>
-                <div>
+                <div id="watercolor">
                     <article>
                         <h2>OTHER WATERCOLOR</h2>
                         <a href="art.html#watercolor">go to page -></a>

@@ -31,13 +31,69 @@
             #twoimg img, #twoimg2 img, #twoimg3 img, #oneimg, #oneimg2 {width: 450px;}
             #posters, #twoimg, #twoimg3, #apppages, #magpages {flex-wrap: wrap;}
             .skip-to-content-button {font-size: 1.5em; border: #ffeb99; border-width: 4px;}
+
+            .navbar {overflow: hidden;}
+            .dropdown {float: left; overflow: hidden;}
+            .dropdown .dropbtn {border: none; outline: none; color: white; margin: 0;}
+            .navbar a:hover, .dropdown:hover .dropbtn {background-color: #acd0ee;}
+            .dropdown-content a:hover {background-color: #acd0ee;}
+            .dropdown:hover .dropdown-content {display: block;}
+
+            /* FROM W3 SCHOOLS: Dropdown content (hidden by default) */
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            /* FROM W3 SCHOOLS: Links inside the dropdown */
+            .dropdown-content a {
+            float: none;
+            color: #032544;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            }
+            
         </style>
     </head>
     <body>
         <nav>
-            <a href="index.html">HOME <span>|</span></a>
-            <a href="design.html"> DESIGN <span>|</span></a>
-            <a href="art.html"> ART</a>
+            <div class="navbar">
+                <a href="index.html">HOME <span>|</span></a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="design.html"> DESIGN <span>|</span></a>
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="design.html#values">Link 1</a>
+                      <a href="design.html#board">Link 2</a>
+                      <a href="design.html#app">Link 3</a>
+                      <a href="design.html#impasse">Link 1</a>
+                      <a href="design.html#festival">Link 2</a>
+                      <a href="design.html#home">Link 3</a>
+                      <a href="design.html#ugirl">Link 1</a>
+                      <a href="design.html#20watts">Link 2</a>
+                    </div>
+                  </div>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="art.html"> ART</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="art.html#georgia">Link 1</a>
+                        <a href="art.html#cookbook">Link 2</a>
+                        <a href="art.html#home">Link 3</a>
+                        <a href="art.html#watercolor">Link 3</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <main>
             <h1>Design</h1>
@@ -76,7 +132,7 @@
             </article>
             <br><hr><br>
             <article>
-                <h2>IMPASSE MAGAZINE APP PROJECT</h2>
+                <h2 id="app">IMPASSE MAGAZINE APP PROJECT</h2>
                 <div class="flexproject">
                     <div class = "explainer">
                         <h3>Design Strategy:</h3>
@@ -128,7 +184,7 @@
             </article>
             <br><hr><br>
             <article>
-                <h2>SURF ROCK FESTIVAL POSTER PROJECT</h2>
+                <h2 id="festival">SURF ROCK FESTIVAL POSTER PROJECT</h2>
                 <div class="flexproject">
                     <div class = "explainer">
                         <h3>Design Strategy:</h3>
@@ -150,14 +206,14 @@
             <div class="flex1">
                 <div>
                     <article>
-                        <h2>OTHER PERSONAL PROJECTS </h2>
+                        <h2 id="home">OTHER PERSONAL PROJECTS </h2>
                         <p>I have also taken it upon myself to explore the Adobe software on my own. Here are a few things I've created in my spare time.</p>
                         <img id="oneimg" src = "../images/project/sf.jpg" alt = "Home is Where the Heart is Poster">
                     </article>
                 </div>
                 <div>
                     <article>
-                        <h2>UNIVERSITY GIRL MAGAZINE SPREAD</h2>
+                        <h2 id="ugirl">UNIVERSITY GIRL MAGAZINE SPREAD</h2>
                         <p>In January 2024, I started a position on the graphics team for University Girl Magazine, a student-run fashion and culture magazine at Syracuse University. My first project with UGirl was a spread about beauty standards and how we often inherit them from our mothers. When I started my first draft, all I had to go off of was the title of the story. As you can see through my process, I had to adapt constantly to fit the feel of the story, as well as the requests of the graphics editors. Ultimately, the spread was changed to one page with no photos at the last minute, so I had to cut parts of my original final draft, resulting in the one page spread at the bottom right.</p>
                         <img id="oneimg2" src = "../images/project/ugirl.png" alt = "University Girl Magazine Spread">
                     </article>
@@ -165,7 +221,7 @@
             </div>
             <br><hr><br>
             <article>
-                <h2>20 WATTS MAGAZINE INSTAGRAM GRAPHICS</h2>
+                <h2 id="20watts">20 WATTS MAGAZINE INSTAGRAM GRAPHICS</h2>
                 <div class="flexproject">
                     <div class = "explainer">
                         <p>Upon arrival at Syracuse, with little to no experience in graphic design, I started a position on the graphics team for 20 Watts Magazine, a student-run music magazine that reviews student shows and other live music in the area. Shown below are some Instagram graphics I created for them during my first semester at Syracuse.</p>
